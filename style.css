@@ -1,6 +1,6 @@
-* {
-    background-color: gray;
+body {
     margin: 0;
+    background-color: aliceblue;
 }
 
 .container {
