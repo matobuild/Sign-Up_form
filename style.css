@@ -2,6 +2,10 @@ body {
     margin: 0;
     background-color: aliceblue;
 }
+@font-face {
+    font-family: Norse-Bold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
 
 .container {
     width: 100%;
@@ -30,7 +34,8 @@ body {
     justify-content: center;
     gap: 20px;
     align-items: center;
-    font-size: 5rem;
+    font-size: 8rem;
+    font-family: Norse-Bold;
 }
 
 .logo {
@@ -38,6 +43,10 @@ body {
     padding: 1rem;
 }
 
+.logo-text {
+    position: relative;
+    top: 1rem;
+}
 .img-ref {
     position: absolute;
     bottom: 1%;
