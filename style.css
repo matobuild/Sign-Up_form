@@ -17,13 +17,14 @@ body {
     height: 100%;
     overflow: hidden;
     position: relative;
+    color: white;
 }
 
 .banner {
     position: absolute;
     top: 15%;
     background-color:rgba(0,0,0,.5);
-    color: white;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -35,4 +36,16 @@ body {
 .logo {
     width: 8rem;
     padding: 1rem;
+}
+
+.img-ref {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {   
+    color: white;
 }
