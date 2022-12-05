@@ -66,16 +66,26 @@ a {
 }
 
 .right-side {
-    background-color: red;
+    background-color: gainsboro;
     padding: 2%;
     display: flex;
     flex-direction: column;
-    gap: 2%;
-    /* justify-content: space-around; */
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.right-side .inner {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
 }
 
 .right-side .top {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .right-side .middle {
     background-color: yellow;;
@@ -85,6 +95,10 @@ a {
     flex-direction: column;
     gap: 25px;
 
+}
+
+fieldset {
+    border: 0;
 }
 
 button {
@@ -97,4 +111,13 @@ button {
     width: 250px;
     height: 50px;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4A5B3C;
+}
+
+button:active {
+    background-color: #3B4A2F;
 }
